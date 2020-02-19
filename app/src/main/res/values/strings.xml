@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">FinalProject</string>
+    <string name="pick_one">Pick One</string>
+    <string name="yes_or_no">Yes Or No</string>
+    <string name="turntable">Turntable</string>
+    <string name="pick_number">Pick Number</string>
 </resources>
