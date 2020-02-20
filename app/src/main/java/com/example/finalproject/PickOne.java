@@ -9,6 +9,6 @@ public class PickOne extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_pick_one);
+        setContentView(new MultiTouch(this));
     }
 }
