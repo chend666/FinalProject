@@ -11,4 +11,16 @@ public class YesOrNo extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_yes_or_no);
     }
+
+    public void clicked(){
+        int rand = (int) Math.random();
+        rand = (rand*10)%2;
+        if(rand == 0) {
+
+        } else {
+
+        }
+    }
+
+    
 }
