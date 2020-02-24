@@ -3,6 +3,9 @@ package com.example.finalproject;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.view.View;
+import android.widget.TextView;
+
 
 public class YesOrNo extends AppCompatActivity {
 
@@ -12,15 +15,14 @@ public class YesOrNo extends AppCompatActivity {
         setContentView(R.layout.activity_yes_or_no);
     }
 
-    public void clicked(){
-        int rand = (int) Math.random();
-        rand = (rand*10)%2;
-        if(rand == 0) {
+    public void startRandom(View view) {
+        TextView display = findViewById(R.id.yon);
 
+        int num = (int) (Math.random()*10)%2;
+        if (num == 0){
+            display.setText("Yes!");
         } else {
-
+            display.setText(("No!"));
         }
     }
 
-    
-}

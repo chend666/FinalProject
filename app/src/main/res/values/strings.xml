@@ -5,4 +5,5 @@
     <string name="turntable">Turntable</string>
     <string name="pick_number">Pick Number</string>
     <string name="put_everyone_s_finger_on_the_screen">Put everyone\'s finger on the screen</string>
+    <string name="yonButton">Random</string>
 </resources>

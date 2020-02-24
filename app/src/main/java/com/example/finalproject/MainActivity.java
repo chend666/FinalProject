@@ -25,7 +25,10 @@ public class MainActivity extends AppCompatActivity {
     public void YesOrNo(View view) {
         Log.d(LOG_TAG,"Click");
 
-        Intent intent = new Intent(this,YesOrNo.class);
+
+        Intent intent = new Intent(this, YesOrNo.class);
+        intent.putExtra("mode",22);
+
         startActivity(intent);
     }
 
