@@ -33,8 +33,7 @@ public class MainActivity extends AppCompatActivity {
         Log.d(LOG_TAG,"Click");
 
 
-        Intent intent = new Intent(this, newTurn.class);
-        intent.putExtra("mode",22);
+        Intent intent = new Intent(this, YesOrNo.class);
         startActivity(intent);
     }
 

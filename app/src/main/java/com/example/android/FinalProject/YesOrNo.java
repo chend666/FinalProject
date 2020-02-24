@@ -24,4 +24,6 @@ public class YesOrNo extends AppCompatActivity {
             display.setText(("No!"));
         }
     }
+}
+
 
