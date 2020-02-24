@@ -1,3 +1,36 @@
+<!-- Copyright 2018 Google Inc.
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License. -->
+
 <resources>
+<<<<<<< Updated upstream
     <string name="app_name">FinalProject</string>
+=======
+    <string name="app_name">Decision</string>
+    <string name="action_settings">Settings</string>
+    <string name="hint_word">Enter your Word</string>
+    <string name="button_save">Save</string>
+    <string name="empty_not_saved">Word not saved because it is empty.</string>
+    <string name="pick_number">Pick Number</string>
+    <string name="yes_or_no">Yes Or No</string>
+    <string name="pick_one">Pick One</string>
+    <string name="turntable">Turntable</string>
+    <string name="design_your_own_table">Design your own table</string>
+    <string name="rotate_image">Start</string>
+    <string name="done">Done</string>
+    <string name="saved_table">Fruit</string>
+    <string name="back">Back</string>
+    <string name="saved_table1">saved table</string>
+    <string name="warnM">Error! Please add attributs</string>
+>>>>>>> Stashed changes
 </resources>
