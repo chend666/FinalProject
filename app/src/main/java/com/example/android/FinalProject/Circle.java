@@ -15,7 +15,7 @@ public class Circle {
     int green;
     int blue;
     Random random = new Random();
-    int color;
+    int color = 0;
 
     public Circle(float x, float y, int pointId){
         this.x = x;

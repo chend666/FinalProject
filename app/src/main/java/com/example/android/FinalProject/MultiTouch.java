@@ -19,7 +19,7 @@ import java.util.List;
 import java.util.Random;
 
 public class MultiTouch extends View {
-    private static final String TAG = "Finger ID";
+    private static final String TAG = "Color";
 
     List<Circle> circles=new ArrayList<>();
 
@@ -76,7 +76,6 @@ public class MultiTouch extends View {
 
         if(pointId <= amountPpl) {
 
-            Log.d(TAG, String.valueOf(pointId));
             switch (action_code) {
 
                 case MotionEvent.ACTION_DOWN://press
@@ -103,18 +102,24 @@ public class MultiTouch extends View {
                 @Override
                 public void run() {
                     int random = new Random().nextInt(amountPpl);
-                    Log.d(TAG, "Max finger!");
-                    setBackgroundColor(get(random).color);
+
+                    try{
+                        int color = get(random).color;
+                        Log.d(TAG, String.valueOf(color));
+                        setBackgroundColor(color);
+                    }catch (Exception e){
+                        e.printStackTrace();
+                    }
 
 
-                    final Handler handler = new Handler();
-                    handler.postDelayed(new Runnable() {
+
+                    final Handler handler1 = new Handler();
+                    handler1.postDelayed(new Runnable() {
                         @Override
                         public void run() {
-                            Intent intent = new Intent(getContext(), PickOne.class);
-                            getContext().startActivity(intent);
+
                         }
-                    }, 1000);
+                    }, 1500);
 
                 }
             }, 700);
