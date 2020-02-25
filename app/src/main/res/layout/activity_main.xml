@@ -40,7 +40,7 @@
         android:layout_height="150dp"
         android:layout_marginBottom="216dp"
         android:text="@string/pick_one"
-        android:onClick="PickOne"
+
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/button4"
         app:layout_constraintHorizontal_bias="0.486"

@@ -15,6 +15,7 @@ public class Circle {
     int green;
     int blue;
     Random random = new Random();
+    int color;
 
     public Circle(float x, float y, int pointId){
         this.x = x;
@@ -26,7 +27,9 @@ public class Circle {
     }
 
     public  void drawIt(Canvas canvas, Paint paint){
+
         paint.setColor(Color.rgb(red,green,blue));
+        color = paint.getColor();
         canvas.drawCircle(x,y,radius,paint);
     }
 }
