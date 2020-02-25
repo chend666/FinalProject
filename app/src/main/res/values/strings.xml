@@ -31,4 +31,9 @@ limitations under the License. -->
     <string name="warnM">Error! Please add attributs</string>
     <string name="put_everyone_s_finger_on_the_screen">Put everyone\'s finger on the screen</string>
     <string name="yonButton">Random</string>
+    <string name="from">From:</string>
+    <string name="to">To:</string>
+    <string name="number">Number</string>
+    <string name="fromnum">0</string>
+    <string name="tonum">10</string>
 </resources>
