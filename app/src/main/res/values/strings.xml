@@ -30,4 +30,6 @@ limitations under the License. -->
     <string name="saved_table1">saved table</string>
     <string name="warnM">Error! Please add attributs</string>
     <string name="put_everyone_s_finger_on_the_screen">Put everyone\'s finger on the screen</string>
+    <string name="Intro">Let us help you to make decisions!</string>
+    <string name="tutorial">Click the image to check more!</string>
 </resources>
