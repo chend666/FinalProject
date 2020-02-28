@@ -2,6 +2,7 @@ package com.example.android.FinalProject;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.TextView;
 
@@ -23,14 +24,14 @@ public class PickNumber extends AppCompatActivity {
         int fromnum = Integer.parseInt(from.getText().toString());
         int tonum = Integer.parseInt(to.getText().toString());
 
-        if (from.getText().toString() == "" || to.getText().toString() == ""){
-            fromnum = 0;
-            tonum = 10;
-        }
-
         int num = new Random().nextInt((tonum - fromnum) + 1) + fromnum;
 
-        number.setText(num);
-        +
+        Log.d("number", String.valueOf(num));
+
+        number.setText(String.valueOf(num));
+
     }
+
+    
+
 }
