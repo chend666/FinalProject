@@ -17,6 +17,11 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 
+/**
+ * I referenced the link of https://blog.csdn.net/zhangkaidsy/article/details/74893953
+ * to realize the feature of drawing circle.
+ */
+
 public class MultiTouch extends View {
     private static final String TAG = "Color";
 

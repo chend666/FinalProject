@@ -1,6 +1,5 @@
 package com.example.android.FinalProject;
 
-import android.app.Activity;
 import android.app.AlertDialog;
 import android.app.Dialog;
 import android.content.Context;
@@ -11,6 +10,8 @@ import android.support.v7.app.AppCompatDialogFragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.EditText;
+
+
 
 public class PickOneDialog extends AppCompatDialogFragment {
     private EditText amountPeople;
