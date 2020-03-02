@@ -1,7 +1,6 @@
 package com.example.android.FinalProject;
 
 import android.content.Context;
-import android.content.Intent;
 import android.graphics.Canvas;
 import android.graphics.Paint;
 import android.os.Build;
