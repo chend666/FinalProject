@@ -1,5 +1,8 @@
 package com.example.android.FinalProject;
 
+//Dian Chen, Yaru Gong, Yang Gao, Xinzhe Jiang
+//Date: 03/02/2020
+
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;

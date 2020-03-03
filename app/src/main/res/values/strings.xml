@@ -13,7 +13,7 @@ See the License for the specific language governing permissions and
 limitations under the License. -->
 
 <resources>
-    <string name="app_name">Decision</string>
+    <string name="app_name">Decidophobia</string>
     <string name="action_settings">Settings</string>
     <string name="hint_word">Enter your Word</string>
     <string name="button_save">Save</string>
