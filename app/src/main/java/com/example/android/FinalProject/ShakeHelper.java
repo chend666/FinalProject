@@ -26,6 +26,11 @@ public class ShakeHelper implements SensorEventListener {
     }
 
     @Override
+    public void onAccuracyChanged(Sensor sensor, int accuracy) {
+
+    }
+
+    @Override
     public void onSensorChanged(SensorEvent event) {
         int sensorType = event.sensor.getType();
         float[] values = event.values;
