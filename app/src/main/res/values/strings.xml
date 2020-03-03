@@ -29,6 +29,7 @@ limitations under the License. -->
     <string name="back">Back</string>
     <string name="saved_table1">saved table</string>
     <string name="warnM">Error! Please add attributs</string>
+    <string name="please_input_the_amount_of_people">Please input the amount of people</string>
     <string name="put_everyone_s_finger_on_the_screen">Put everyone\'s finger on the screen</string>
     <string name="yonButton">Random</string>
     <string name="from">From:</string>
