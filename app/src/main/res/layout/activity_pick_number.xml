@@ -6,6 +6,17 @@
     android:layout_height="match_parent"
     tools:context=".PickNumber">
 
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="1500dp"
+        android:layout_height="1500dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.597"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/back" />
+
     <TextView
         android:id="@+id/yntitle2"
         android:layout_width="wrap_content"

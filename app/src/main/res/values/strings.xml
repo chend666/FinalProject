@@ -36,4 +36,6 @@ limitations under the License. -->
     <string name="number">Number</string>
     <string name="fromnum">0</string>
     <string name="tonum">10</string>
+    <string name="clickcheck">Let us help you to make decisions!</string>
+    <string name="hint">Click on the image to check more!</string>
 </resources>
