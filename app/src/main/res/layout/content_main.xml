@@ -28,6 +28,17 @@ limitations under the License. -->
     tools:context="com.example.android.FinalProject.MainActivity"
     tools:showIn="@layout/activity_create">
 
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="1500dp"
+        android:layout_height="1500dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.597"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/back" />
+
     <android.support.v7.widget.RecyclerView
         android:id="@+id/recyclerview"
         android:layout_width="match_parent"
